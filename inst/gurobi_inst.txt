@@ -1,0 +1,26 @@
+To be able to run algorithms based on mathematical programming methods, Gurobi solver and the corresponding R interface are needed. Here we provide instructions for manually installing Gurobi and its R interface in Windows machines.
+
+1. Create a free academic license
+	Follow the instructions on: https://www.gurobi.com/academia/academic-program-and-licenses/
+
+2. Install the software
+	2.1. Go to https://www.gurobi.com/downloads/ and choose 'Download gurobi optimizer'
+	2.2. Choose your operating system and press download
+
+3. Retrieve and set up your Gurobi license
+	2.1. Follow the instructions in: https://www.gurobi.com/documentation/8.1/quickstart_windows/retrieving_and_setting_up_.html
+	2.2. Then follow the instructions in: https://www.gurobi.com/documentation/8.1/quickstart_windows/retrieving_a_free_academic.html
+
+4. Test your license
+	Follow the instructions in: https://www.gurobi.com/documentation/8.1/quickstart_windows/testing_your_license.html
+
+5. Install the R interface of Gurobi
+	Follow the instructions in: https://www.gurobi.com/documentation/8.1/quickstart_windows/r_installing_the_r_package.html
+
+6. Test the installation
+	Load the library and run the examples therein
+	* A possible error that you may get is the following: "Error: package ‘slam’ required by ‘gurobi’ could not be found". In that case, run install.packages('slam') and try again.
+
+7. If there are any problems with the installation, do not hesitate to contact us.
+
+NOTE: To be able to run steps 2 and 3, your computer needs to be connected to an academic network.

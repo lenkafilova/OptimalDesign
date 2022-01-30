@@ -1,0 +1,19 @@
+Package: OptimalDesign
+Type: Package
+Title: A Toolbox for Computing Efficient Designs of Experiments
+Version: 1.0.1
+Author: Radoslav Harman, Lenka Filova
+Maintainer: Lenka Filova <OptimalDesignR@gmail.com>
+Description: Algorithms for D-, A-, I-, and c-optimal designs. Some of the functions in this package require the 'gurobi' software and its accompanying R package. For their installation, please follow the instructions at <https://www.gurobi.com> and the file gurobi_inst.txt, respectively.
+License: GPL-3
+URL: < http://www.iam.fmph.uniba.sk/design/ >
+Depends: R (>= 3.1.1)
+Encoding: UTF-8
+LazyData: true
+Imports: grDevices, graphics, Matrix, lpSolve, matrixStats, matrixcalc,
+        plyr, quadprog, rgl, stats, utils
+Enhances: gurobi, slam
+NeedsCompilation: no
+Packaged: 2019-12-01 18:23:59 UTC; Lenka
+Repository: CRAN
+Date/Publication: 2019-12-02 08:50:07 UTC
